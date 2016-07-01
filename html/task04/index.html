@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Task 04</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!--HEADER-->
+    <header class="header">
+        <nav class="nav">
+            <ul class="menu">
+                <li class="menu__item"><a href="#" class="menu__link">Meu YouBike</a></li>
+                <li class="menu__item"><a href="#" class="menu__link">Vender</a></li>
+                <li class="menu__item"><a href="#" class="menu__link">Forum</a></li>
+                <li class="menu__item"><a href="#" class="menu__link">Contato</a></li>
+                <li class="menu__item"><a href="#" class="menu__link">Ajuda</a></li>
+                <li class="menu__item menu__item--vertical-line"></li>
+                <li class="menu__item"><a href="#" class="menu__link menu__link--flag-bg">Minhas Ofertas</a></li>
+                <li class="menu__item menu__item--light-blue ">
+                    <span>Ola!&nbsp;</span>
+                    <a href="#" class="menu__link menu__link--underline">Entrar</a>
+                    <span>&nbsp;or&nbsp;</span>
+                    <a href="#" class="menu__link menu__link--underline">Cadastre-se</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main">
+        <!--FORM-->
+        <form class="form" action="#" method="get" name="sing-up-form" id="sing-up-form">
+            <div class="form-header">
+                <p>Cadastre-se</p>
+            </div>
+            <button class="form-btn form-btn--login-fb" name="facebook-login-btn">&nbsp;</button>
+            <label class="form__label form__label--horizontal-line">
+                <hr>&nbsp;ou&nbsp;<hr>
+            </label>
+            <label class="form__label">
+                <input type="text"
+                       class="form__input"
+                       name="firstName"
+                       id="firstName"
+                       placeholder="First Name" required>
+            </label>
+            <label class="form__label">
+                <input type="text"
+                       class="form__input"
+                       name="lastName"
+                       id="lastName"
+                       placeholder="Last Name" required>
+            </label>
+            <label class="form__label">
+                <input type="email"
+                       class="form__input"
+                       name="email"
+                       id="email"
+                       placeholder="Email Address" required>
+            </label>
+            <label class="form__label">
+                <input type="password"
+                       class="form__input"
+                       name="password"
+                       id="password"
+                       placeholder="Choose Password" required>
+            </label>
+            <label class="form__label">
+                <input type="password"
+                       class="form__input"
+                       name="password2"
+                       id="password2"
+                       placeholder="Password Confirm" required>
+            </label>
+            <label class="form__label form__label--checkbox">
+                <input type="checkbox"
+                       class="form__input"
+                       name="updates"
+                       id="updates">
+                <span>Send me Youbike updates and tips</span>
+            </label>
+            <button type="submit" class="form-btn form-btn--submit">Create my account</button>
+            <label class="form__label form__label--info">
+                <span>By clicking the button above, you agree to the</span>
+                <a href="#" target="_blank">Terms of Service</a>
+                <span>Xview our</span>
+                <a href="#" target="_blank">Privacy Policy</a><a href="#" target="_blank">Privacy Policy</a>
+            </label>
+        </form>
+    </main>
+</body>
+</html>

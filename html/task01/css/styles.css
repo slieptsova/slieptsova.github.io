@@ -1,0 +1,22 @@
+body {
+    background: #ccc;
+    font: normal 16px/20px Arial, Tahoma, sans-serif;
+}
+
+.card {
+    background: #fff;
+    margin: 0 auto;
+    height: auto;
+    width: 600px;
+    padding: 20px 40px;
+    box-shadow: 0 0 10px #333;
+}
+
+.card img {
+    width: 150px;
+    height: auto;
+}
+
+.title {
+    text-align: center;
+}

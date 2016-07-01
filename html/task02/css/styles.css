@@ -1,0 +1,148 @@
+/*MAIN*/
+
+body {
+    background: #f9f9f9;
+    font: normal 15px/30px "Open Sans", Arial, sans-serif;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 1060px;
+    box-sizing: border-box;
+    padding: 0 50px;
+    box-shadow: 0 0 10px #333333;
+    background: #ffffff;
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*HEADER*/
+
+.logo {
+    padding: 40px 0;
+}
+
+/*MENU`S STYLES*/
+
+.menu-box {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.menu-box--dark {
+    background: linear-gradient(#5e5e5e, #444343);
+}
+
+.menu-box--grey {
+    background: #e1e1e1;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu__link {
+    display: block;
+    text-align: center;
+    padding: 5px 10px;
+    min-width: 100px;
+}
+
+.menu__link--dark {
+    color: #ffffff;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+.menu__link--dark:hover {
+    background: linear-gradient(#4a4a4a, #2e2e2e);
+    border-left: 1px solid #838383;
+    border-right: 1px solid #838383;
+    min-width: 98px;
+}
+
+.menu__link--default {
+    color: #2c2c2c;
+}
+
+.menu__link--default:hover {
+    text-decoration: underline;
+}
+
+/*ASIDE MENU*/
+
+.main-content {
+    margin: 40px 0 20px 0;
+}
+
+.category-box {
+    max-width: 240px;
+    flex: 1 1 100%;
+}
+
+.category-menu__item {
+    border-top: 1px solid #c8c8c8;
+    border-left: 1px solid #c8c8c8;
+    border-right: 1px solid #c8c8c8;
+    padding: 0 0 0 20px;
+}
+
+.category-menu__item:last-child {
+    border: 1px solid #c8c8c8;
+}
+
+.category-menu__link {
+    display: block;
+    color: #656363;
+    font-size: 14px;
+    line-height: 38px;
+    transition: all .3s;
+}
+
+.category-menu__link:hover {
+    color: #2c2c2c;
+    padding: 0 0 0 10px;
+}
+
+.category-menu__item:hover {
+    background-color: #f9f9f9;
+}
+
+/*GOODS CONTENT*/
+
+.goods-content-box {
+    flex: 1 1 100%;
+    max-width: 680px;
+}
+
+.goods-content {
+    border: 1px solid #c8c8c8;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.goods-content-text {
+    color: #2c2c2c;
+    font-size: 13px;
+    line-height: 22px;
+    padding: 40px 25px;
+}
+
+/* FOOTER */
+
+.footer {
+    padding: 20px 0;
+}
+
+.copy-right-box {
+    line-height: 40px;
+    padding: 0 25px;
+    color: #2c2c2c;
+}
