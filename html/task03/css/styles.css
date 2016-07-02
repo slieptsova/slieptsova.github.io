@@ -6,18 +6,9 @@ body {
     box-sizing: border-box;
 }
 
-.bar {
-    position: fixed;
-    height: 38px;
-    width: 100%;
-    background: url("../img/bar.jpg") center no-repeat;
-    z-index: 1;
-}
-
 .wrapper {
     width: 1000px;
     margin: 0 auto;
-    padding: 38px 0 0 0;
     background-color: #ffffff;
     box-shadow: 0 5px 10px #333333;
 }
@@ -72,10 +63,6 @@ a {
     font-size: 10px;
     color: #128aa7;
     text-decoration: underline;
-}
-
-.country-menu__link:hover {
-    color: #fe8826;
 }
 
 .country-menu__link--india {
@@ -156,10 +143,6 @@ a {
     font-size: 14px;
     line-height: 30px;
     padding: 0 30px;
-}
-
-.menu__link:hover {
-    color: #fe8826;
 }
 
 .menu__link--arrow:after {
