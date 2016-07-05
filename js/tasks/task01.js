@@ -3,21 +3,21 @@
 
 function task01(){
 
-    var number = parseInt(prompt('Enter number', 2));
-    var degree = parseInt(prompt('Enret pow', 3));
+    console.log('Task01');
 
+    var number = parseInt(prompt('Enter number', 2));
+    var degree = parseInt(prompt('Enter pow', 3));
 
     if (isNaN(number) || isNaN(degree)) {
         console.log('Use ONLY numbers! ( ˘︹˘ )');
     }
     else {
-        powq(number, degree);
+        pow(number, degree);
     }
-
 
     //Pow function
 
-    function powq(x, n) {
+    function pow(x, n) {
         var result;
         // math rules for different degrees
         switch (true){
